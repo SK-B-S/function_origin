@@ -31,7 +31,7 @@ public class IndexServlet extends HttpServlet {
 		// TODO Auto-generated method stub
         //response.getWriter().append("Served at: ").append(request.getContextPath());
 
-		RequestDispatcher disatcher = request.getRequestDispatcher("/view/index.jsp");
+		RequestDispatcher disatcher = request.getRequestDispatcher("/index.jsp");
 		disatcher.forward(request, response);
 	}
 
