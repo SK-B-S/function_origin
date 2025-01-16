@@ -3,8 +3,8 @@ package bean;
 import java.io.Serializable;
 
 public class AdmitSta implements Serializable {
-    private int adtId; // 承認ID
-    private String adtSts; // 承認状態
+    private int adtId; // 公認ID
+    private String adtSts; // ステータス名
 
     public int getAdtId() {
         return adtId;

@@ -4,9 +4,9 @@ import java.io.Serializable;
 import java.util.Date;
 
 public class ContReport implements Serializable {
-    private int cntiId; // 申請ID
-    private int acntId; // アカウントID (FMRの参照)
-    private int adtId; // 承認状態ID (ADMIT_STAの参照)
+    private int cntiId;
+    private int acntId;
+    private int adtId;
     private Date cntiXpry; // 期限日
     private String cntiImg; // 画像パス
     private String cntiRsm; // 理由

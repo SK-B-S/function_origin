@@ -6,7 +6,7 @@ public class Cart implements Serializable {
     private int cartId; // カートID
     private int acntId; // アカウントID (PRCSRの参照)
     private int gdsId; // 商品ID (GDSの参照)
-    private int cartQua; // カート内商品数量
+    private int cartQua; // カート内の商品数量
 
     public int getCartId() {
         return cartId;
