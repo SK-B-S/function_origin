@@ -1,0 +1,6 @@
+<resource-ref>
+    <description>H2 Database</description>
+    <res-ref-name>jdbc/PJ</res-ref-name>   <!-- 上記で設定したリソース名 -->
+    <res-type>javax.sql.DataSource</res-type>
+    <res-auth>Container</res-auth>
+</resource-ref>

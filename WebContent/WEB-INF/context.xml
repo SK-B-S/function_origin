@@ -1,0 +1,16 @@
+<Context>
+
+    <!-- H2データベースのJNDIリソース設定 -->
+    <Resource name="jdbc/PJ"
+              auth="Container"
+              type="javax.sql.DataSource"
+              maxTotal="20"
+              maxIdle="10"
+              maxWaitMillis="-1"
+              username="sa"   <!-- H2デフォルトユーザー名 -->
+              password=""     <!-- H2デフォルトパスワード -->
+              driverClassName="org.h2.Driver"  <!-- H2 JDBCドライバ -->
+              url="jdbc:h2:tcp://localhost/~/PJ"  <!-- 修正したH2接続URL -->
+              factory="org.apache.tomcat.jdbc.pool.DataSourceFactory" />
+
+</Context>
