@@ -1,11 +1,16 @@
 package bean;
 
-import java.io.Serializable;
+public class Vege {
+    private int vegeId;
+    private String vegeName;
 
-public class Vege implements Serializable {
-    private int vegeId; // 野菜ID
-    private String vegeName; // 野菜名
+    // コンストラクタ
+    public Vege(int vegeId, String vegeName) {
+        this.vegeId = vegeId;
+        this.vegeName = vegeName;
+    }
 
+    // ゲッターとセッター
     public int getVegeId() {
         return vegeId;
     }
